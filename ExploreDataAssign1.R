@@ -18,7 +18,10 @@ getPowerData <- function() {
          , xlab = "Global Active Power (kilowatts)", ylim=c(0,1200))
 }
 
-png(filename = "Rplot%03d.png",
-    width = 480, height = 480, units = "px", pointsize = 12,
-    bg = "white",  res = NA, ...,
-    type = c("cairo", "cairo-png", "Xlib", "quartz"), antialias)
+generatePlots <- function(){
+  plot1()
+  Plot2()
+  plot3()
+  plot4()
+  
+}

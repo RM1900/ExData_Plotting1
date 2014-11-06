@@ -11,7 +11,7 @@ plot4 <- function() {
     download.file(fileUrl, tempFile)
     
     # unzip the data and read it into a data frame
-    data <- read.csv(unz(tempFile, "household_power_consumption.txt"),
+    datafile <- read.csv(unz(tempFile, "household_power_consumption.txt"),
                      ,header = TRUE
                      ,sep = ";"
                      ,na.strings = "?"
@@ -31,7 +31,8 @@ plot4 <- function() {
     png(file = "./plot4.png", width = 480, height = 480, units = "px")
  
     # set up the device to have 2 rows and 2 columns for plots
-    par(mfrow= c(2,2)) # mar = c(4,4,1,1), oma = c(0,0,2,0))
+    par(mfrow= c(2,2))
+    
     # create the plots
     with(sub_data, {
         plot(sub_data$DateTime, sub_data$Global_active_power

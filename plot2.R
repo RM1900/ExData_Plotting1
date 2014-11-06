@@ -11,7 +11,7 @@ plot2 <- function() {
     download.file(fileUrl, tempFile)
     
     # unzip the data and read it into a data frame
-    data <- read.csv(unz(tempFile, "household_power_consumption.txt"),
+    datafile <- read.csv(unz(tempFile, "household_power_consumption.txt"),
                      ,header = TRUE
                      ,sep = ";"
                      ,na.strings = "?"
