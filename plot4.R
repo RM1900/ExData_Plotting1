@@ -1,5 +1,5 @@
 plot4 <- function() {
-    # function to create the second plot in assignment 1 of Exploratory Data Analysis
+    # function to create the fourth plot in assignment 1 of Exploratory Data Analysis
     
     # URL to the file to download, note using https as the protocol will fail
     # to successfully download
@@ -52,5 +52,5 @@ plot4 <- function() {
         plot(sub_data$DateTime, sub_data$Global_reactive_power
              , xlab = "datetime", type = "l", ylab = "Global_reactive_power")
     })
-    dev.off()    
+    devReturn <- dev.off()    
 }

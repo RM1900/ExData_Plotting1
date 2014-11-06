@@ -31,5 +31,5 @@ plot2 <- function() {
     png(file = "./plot2.png", width = 480, height = 480, units = "px")
     plot(sub_data$DateTime, sub_data$Global_active_power,
          type="l", ylab = "Global Active Power (kilowatts)", xlab = "")
-    dev.off()    
+    devReturn <- dev.off()    
 }

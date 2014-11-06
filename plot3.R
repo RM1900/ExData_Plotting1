@@ -1,5 +1,5 @@
 plot3 <- function() {
-    # function to create the second plot in assignment 1 of Exploratory Data Analysis
+    # function to create the third plot in assignment 1 of Exploratory Data Analysis
     
     # URL to the file to download, note using https as the protocol will fail
     # to successfully download
@@ -39,5 +39,5 @@ plot3 <- function() {
         legend("topright", lwd = 1, col = c("black", "red", "blue")
                , legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
     })
-    dev.off()    
+    devReturn <- dev.off()    
 }

@@ -27,5 +27,5 @@ plot1 <- function() {
     png(file = "./plot1.png", width = 480, height = 480, units = "px")
     hist(sub_data$Global_active_power, col= "red", main = "Global Active Power"
          , xlab = "Global Active Power (kilowatts)", ylim=c(0,1200))
-    dev.off()  
+    devReturn <- dev.off()  
 }
