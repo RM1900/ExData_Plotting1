@@ -1,3 +1,10 @@
+## My source files and PNG plots
+To validate the plots I saved my PNGs with the same resolution (504x504 pixels)
+Then I printed the ones provided in the GitHub repository by the instructor
+and printed mine as overlays.  I overlayed mine on theirs and linedup the y-axis
+and then compared the plots.  With my printer, at 300 DPI I was not able to
+distinguish any differences.
+
 ## Introduction
 
 This assignment uses data from

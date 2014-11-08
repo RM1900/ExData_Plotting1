@@ -28,7 +28,7 @@ plot4 <- function() {
     sub_data$DateTime <- strptime(DateTime, "%d/%m/%Y %H:%M:%S")
     
     # create the plot using the required paramaters
-    png(file = "./plot4.png", width = 480, height = 480, units = "px")
+    png(file = "./plot4.png", width = 504, height = 504, units = "px")
  
     # set up the device to have 2 rows and 2 columns for plots
     par(mfrow= c(2,2))
