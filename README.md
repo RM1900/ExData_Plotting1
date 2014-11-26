@@ -1,12 +1,15 @@
-## My source files and PNG plots
-To validate the plots I saved my PNGs with the same resolution (504x504 pixels)
-Then I printed the ones provided in the GitHub repository by the instructor
-and printed mine as overlays.  I overlayed mine on theirs and linedup the y-axis
-and then compared the plots.  With my printer, at 300 DPI I was not able to
-distinguish any differences.
+README for my ExData_Plottin1 repository
+=====================================================
+This repository is for all of my work for the Coursera course "Exploratory Data Analysis". There is a directory for each class assignment (Assignment1 and Assignment2). 
+
+If you are peer reviewing class assignment 1, please review the plots and scripts in the directory Assignment1 and ignore the directory Assignment2.
+
+Assignment 1 details
+=====================
+## How I validated my plots
+To validate my plots I saved my PNGs with the same resolution (504x504 pixels) as the plots provided in the GitHub repository by the instructor. Then I printed the ones provided in the GitHub repository by the instructor and printed mine as overlays. I overlayed mine on theirs and lined up the y-axis and then compared the plots. With my printer, at 300 DPI I was not able to distinguish any differences.
 
 ## Introduction
-
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
@@ -41,11 +44,6 @@ web site</a>:
 </ol>
 
 ## Loading the data
-
-
-
-
-
 When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. First
@@ -66,7 +64,6 @@ functions.
 
 
 ## Making Plots
-
 Our overall goal here is simply to examine how household energy usage
 varies over a 2-day period in February, 2007. Your task is to
 reconstruct the following plots below, all of which were constructed
