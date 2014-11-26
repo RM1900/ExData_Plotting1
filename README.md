@@ -1,4 +1,4 @@
-README for my ExData_Plottin1 repository
+README for my ExData_Plotting1 repository
 =====================================================
 This repository is for my work for the Coursera course "Exploratory Data Analysis" assignment 1.
 
