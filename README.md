@@ -1,8 +1,6 @@
 README for my ExData_Plottin1 repository
 =====================================================
-This repository is for all of my work for the Coursera course "Exploratory Data Analysis". There is a directory for each class assignment (Assignment1 and Assignment2). 
-
-If you are peer reviewing class assignment 1, please review the plots and scripts in the directory Assignment1 and ignore the directory Assignment2.
+This repository is for my work for the Coursera course "Exploratory Data Analysis" assignment 1.
 
 Assignment 1 details
 =====================
